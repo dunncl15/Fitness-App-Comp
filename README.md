@@ -4,6 +4,8 @@ Front-End UX UI Project
 ## 3 examples of reference/inspiration
 ![Inspiration1](http://i.imgur.com/AArz0z3.png)
 ![Inspiration2](http://i.imgur.com/Q2XCbqb.png)
+![Mobile Inspiration1](http://i.imgur.com/DPu8a2z.png)
+![Mobile Inspiration2](http://i.imgur.com/fY72uW5.png)
 
 
 
@@ -13,6 +15,7 @@ Our target user for FitTracker is the average joe. It doesn't matter if you are 
 
 
 ## Wireframes (hand-drawn is fine) of your comp for mobile and desktop – we want to see your process and thinking.
+![Wireframe](http://i.imgur.com/L6Q2ySK.png)
 
 
 ## Final comps for mobile and desktop layouts built in Sketch. Button/hover/active states must be included (if and when applicable). Should be ready to hand-off to a dev team to build.
