@@ -2,6 +2,8 @@
 Front-End UX UI Project 
 
 ## 3 examples of reference/inspiration
+![Imgur](http://i.imgur.com/AArz0z3.png)
+![Imgur](http://i.imgur.com/Q2XCbqb.png)
 
 
 
