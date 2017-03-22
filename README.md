@@ -11,7 +11,7 @@ Front-End UX UI Project
 
 ## Explain who your target user is, and how the choices you’ve made solve a problem for them, address their preferences/needs, and are tailored to them.
 
-Our target user for FitTracker is the average joe. It doesn't matter if you are a cross-fit champ or just signed up for your first 5K! Track your workouts and set your goals with FitTracker to reach your ideal you! 
+Our target user for FitTracker is the average joe. It doesn't matter if you are a cross-fit champ or just signed up for your first 5K! Track your workouts and set your goals with FitTracker to reach your ideal you! Use FitTracker to track steps, floors, calories, workouts and active hours. Compare your daily/weekly activity to your personalized goals. 
 
 
 ## Wireframes (hand-drawn is fine) of your comp for mobile and desktop – we want to see your process and thinking.
