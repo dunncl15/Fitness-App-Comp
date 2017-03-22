@@ -1,5 +1,5 @@
 body {
-  background-color: #B8D8D8;
+  background-color: #b6d9d9;
   font-family: "Open Sans";
   font-size: 16px;
 }
@@ -22,4 +22,37 @@ header {
 h1 {
   font-size: 2em;
   color: #EEF5DB;
+}
+
+.calendar {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0 0 0;
+  border-top: 1px solid #7A9E9F;
+  border-bottom: 1px solid #7A9E9F;
+}
+
+.day-wrap {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4f6367;
+  cursor: pointer;
+}
+
+.day-wrap:hover {
+  background-color: #7A9E9F;
+  color: #fe5f55;
+  font-weight: 700;
+}
+
+.day-wrap p {
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.number {
+  font-size: 1.75em;
 }
