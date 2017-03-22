@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="203px" height="204px" viewBox="0 0 203 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Mobile Segment Circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M95.95,3 C129.8935,3 161.253,21.107 178.22,50.5 C181.5355,56.2475 184.2525,62.3275 186.3045,68.645 L182.685,69.8135 C172.615,38.8245 146.7845,15.5685 114.912,8.795 C108.68,7.4745 102.3245,6.8 95.95,6.8 L95.95,3 Z" id="path-1"></path>
+        <path d="M186.3045,68.645 C196.7925,100.926 189.259,136.342 166.5445,161.5645 C143.83,186.787 109.402,197.978 76.1995,190.9195 C42.997,183.861 16.0835,159.636 5.5955,127.355 C-4.8925,95.074 2.641,59.658 25.3555,34.4355 C43.3675,14.4285 69.027,3 95.95,3 L95.95,6.8 C63.365,6.8 33.2595,24.185 16.967,52.4 C0.6745,80.615 0.6745,115.385 16.967,143.6 C33.2595,171.815 63.365,189.2 95.95,189.2 C128.535,189.2 158.6405,171.815 174.933,143.6 C187.853,121.218 190.6745,94.3995 182.685,69.8135 L186.3045,68.645 Z" id="path-2"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Portrait" transform="translate(-59.000000, -147.000000)">
+            <g id="Mobile-Segment-Circle" transform="translate(161.500000, 248.500000) rotate(90.000000) translate(-161.500000, -248.500000) translate(66.000000, 152.000000)">
+                <path d="M95.95,3 C129.8935,3 161.253,21.107 178.22,50.5 C195.187,79.893 195.187,116.107 178.22,145.5 C161.253,174.893 129.8935,193 95.95,193 C62.0065,193 30.647,174.893 13.68,145.5 C-3.287,116.107 -3.287,79.893 13.68,50.5 C30.647,21.107 62.0065,3 95.95,3 L95.95,6.8 C63.365,6.8 33.2595,24.185 16.967,52.4 C0.6745,80.615 0.6745,115.385 16.967,143.6 C33.2595,171.815 63.365,189.2 95.95,189.2 C128.535,189.2 158.6405,171.815 174.933,143.6 C191.2255,115.385 191.2255,80.615 174.933,52.4 C158.6405,24.185 128.535,6.8 95.95,6.8 L95.95,3 Z" id="Base-plate" fill-opacity="0.002" fill="#455A64"></path>
+                <use id="Segment-20" fill-opacity="0.600000024" fill="#FE5F55" xlink:href="#path-1"></use>
+                <use id="Segment--80" fill="#4F6367" xlink:href="#path-2"></use>
+                <circle id="Oval" fill="#4F6367" cx="100" cy="5" r="5"></circle>
+                <text id="8,435" transform="translate(83.000000, 97.500000) rotate(-90.000000) translate(-83.000000, -97.500000) " font-family="OpenSans-Bold, Open Sans" font-size="40" font-weight="bold" fill="#FE5F55">
+                    <tspan x="31.5351562" y="113">8,435</tspan>
+                </text>
+                <text id="10,000" transform="translate(119.500000, 98.500000) rotate(-90.000000) translate(-119.500000, -98.500000) " font-family="OpenSans, Open Sans" font-size="20" font-weight="normal" fill="#4F6367">
+                    <tspan x="88.4599609" y="106">10,000</tspan>
+                </text>
+            </g>
+            <text id="STEPS" font-family="OpenSans-Bold, Open Sans" font-size="30" font-weight="bold" fill="#4F6367">
+                <tspan x="118.970215" y="379">STEPS</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

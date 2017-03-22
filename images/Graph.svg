@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="422px" height="186px" viewBox="0 0 422 186" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-343.000000, -417.000000)">
+            <rect id="Rectangle-7-Copy" fill="#B8D8D8" x="334" y="365" width="930" height="250"></rect>
+            <g id="Graph" transform="translate(339.000000, 421.000000)">
+                <path d="M50,0.5 L50,161.5" id="Line" stroke="#4F6367" stroke-width="2" stroke-linecap="square" transform="translate(50.000000, 81.000000) scale(-1, -1) translate(-50.000000, -81.000000) "></path>
+                <path id="Line-decoration-1" d="M50,161.5 L53,150.7 L47,150.7 L50,161.5 Z" stroke="#4F6367" stroke-width="2" stroke-linecap="square"></path>
+                <text id="M" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="64.3745117" y="181">M</tspan>
+                </text>
+                <path d="M73,156.5 L73,83" id="Line" stroke="#FE5F55" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M124,156.5 L124,62" id="Line" stroke="#FE5F55" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M175,156.5 L175,99" id="Line" stroke="#FE5F55" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M282,156.5 L282,82" id="Line" stroke="#FE5F55" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M333,156.5 L333,52" id="Line" stroke="#FE5F55" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M382,156.5 L382,125" id="Line" stroke="#FE5F55" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M227,156.5 L227,29" id="Line" stroke="#7A9E9F" stroke-width="10" stroke-linecap="square"></path>
+                <text id="T" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="119.520996" y="181">T</tspan>
+                </text>
+                <text id="W" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="166.167969" y="181">W</tspan>
+                </text>
+                <text id="T" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="221.520996" y="181">T</tspan>
+                </text>
+                <text id="F" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="276.85498" y="181">F</tspan>
+                </text>
+                <text id="S" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="328.560547" y="181">S</tspan>
+                </text>
+                <text id="S" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="377.560547" y="181">S</tspan>
+                </text>
+                <text id="25%" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="23.1992188" y="128">25%</tspan>
+                </text>
+                <text id="50%" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="23.1992188" y="94">50%</tspan>
+                </text>
+                <text id="75%" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="23.1992188" y="62">75%</tspan>
+                </text>
+                <text id="100%" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="16.7685547" y="30">100%</tspan>
+                </text>
+                <text id="Goals" transform="translate(9.000000, 72.500000) scale(-1, -1) rotate(90.000000) translate(-9.000000, -72.500000) " font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#EEF5DB">
+                    <tspan x="-6.70898438" y="77">Goals</tspan>
+                </text>
+                <path d="M50.5,163 L421.5,163" id="Line" stroke="#4F6367" stroke-width="2" stroke-linecap="square"></path>
+                <path id="Line-decoration-1" d="M421.5,163 L410.7,160 L410.7,166 L421.5,163 Z" stroke="#4F6367" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
