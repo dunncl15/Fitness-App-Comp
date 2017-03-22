@@ -1,3 +1,25 @@
 body {
-  background-color: blue;
+  background-color: #B8D8D8;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  background-color: #7A9E9F;
+}
+
+.logo {
+  display: block;
+  margin-right: 5px;
+  height: 45px;
+  width: 45px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #EEF5DB;
 }
