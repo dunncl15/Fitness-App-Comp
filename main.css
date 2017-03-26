@@ -6,6 +6,7 @@ body {
   background-color: #cadddd;
   font-family: "Open Sans";
   font-size: 16px;
+  height: 100vh;
 }
 
 /****** App Header ******
@@ -15,7 +16,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0;
+  padding: 15px 0;
   background-color: #7A9E9F;
 }
 
@@ -111,12 +112,12 @@ h1 {
 .stat p {
   color: #4f6367;
   margin: 3px 0;
-  font-size: .85em;
+  font-size: .9em;
 }
 
 .stat span {
   color: #fe5f55;
-  font-size: .8em;
+  font-size: .85em;
   font-weight: 700;
 }
 
@@ -215,5 +216,4 @@ footer {
 .menu-btn p {
   margin: 5px 0 0 0;
   font-size: .85em;
-  font-weight: 700;
 }
