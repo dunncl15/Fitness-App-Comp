@@ -107,6 +107,7 @@ h1 {
 .stat-icon {
   height: 25px;
   width: 25px;
+  margin: 0 0 3px 0;
 }
 
 .stat p {
@@ -216,4 +217,5 @@ footer {
 .menu-btn p {
   margin: 5px 0 0 0;
   font-size: .85em;
+  letter-spacing: .5pt;
 }
