@@ -19,7 +19,7 @@
 }
 
 .overview {
-  width: 80%;
+  width: 85%;
   margin: 25px auto;
   display: flex;
   justify-content: space-between;
@@ -34,20 +34,20 @@
 }
 
 .stat-icon {
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
   margin: 0 0 3px 0;
 }
 
 .stat p {
   color: #4f6367;
   margin: 3px 0;
-  font-size: .9em;
+  font-size: 1em;
 }
 
 .stat span {
   color: #fe5f55;
-  font-size: .85em;
+  font-size: .95em;
   font-weight: 700;
 }
 
