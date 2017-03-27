@@ -1,0 +1,37 @@
+
+.calendar {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0 0 0;
+  border-top: 2px solid rgba(122, 158, 159, .3);
+  border-bottom: 2px solid rgba(122, 158, 159, .3);
+}
+
+.day-wrap {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4f6367;
+  cursor: pointer;
+}
+
+.day-wrap:hover {
+  background-color: #7A9E9F;
+  color: #fe5f55;
+  font-weight: 700;
+}
+
+.day {
+  font-size: .85em;
+}
+
+.day-wrap p {
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.number {
+  font-size: 1.5em;
+}
