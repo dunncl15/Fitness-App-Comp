@@ -4,7 +4,7 @@
 
 body {
   background-color: #cadddd;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   height: 100vh;
 }
@@ -59,13 +59,17 @@ h1 {
   font-weight: 700;
 }
 
+.day {
+  font-size: .85em;
+}
+
 .day-wrap p {
   margin: 5px;
   text-transform: uppercase;
 }
 
 .number {
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 /***** Steps Section *****
