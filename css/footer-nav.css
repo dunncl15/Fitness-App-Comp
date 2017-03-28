@@ -70,3 +70,9 @@ footer {
   font-size: .85em;
   letter-spacing: .25pt;
 }
+
+@media only screen and (min-width: 650px)  {
+  footer {
+    display: none;
+  }
+}

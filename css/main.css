@@ -32,3 +32,51 @@ h1 {
   font-size: 2em;
   color: #EEF5DB;
 }
+
+.user-section {
+  display: none;
+}
+
+.sidebar {
+  display: none;
+}
+
+@media only screen and (min-width: 650px)  {
+  body {
+    background-color: #fff;
+  }
+  
+  header {
+    justify-content: initial;
+  }
+
+  .user-section {
+    display: block;
+    position: absolute;
+    right: 0;
+    color: #EEF5DB;
+    font-size: 1.3em;
+  }
+
+  .sidebar {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    background-color:#cadddd;
+    list-style: none;
+  }
+
+  li {
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #4f6367;
+    color: #4f6367;
+    font-weight: 700;
+  }
+
+  li:hover {
+    background-color: #839D9E;
+    color: #EEF5DB;
+  }
+}

@@ -1,5 +1,4 @@
-
-.main-content {
+.main-content-mobile {
   margin: 0 0 100px 0;
 }
 
@@ -73,4 +72,90 @@
 
 .start-btn:hover {
   background-color: #fe5f55;
+}
+
+@media only screen and (min-width: 650px)  {
+  .main-content-mobile {
+    display: none;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #4f6367;
+  }
+
+  h4 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #4f6367;
+  }
+
+  h5 {
+    color: #FF5F55;
+    font-weight: 700;
+  }
+
+  h6 {
+    color: #EEF5DB;
+    font-size: .8em;
+  }
+
+  .today,
+  .this-week,
+  .recent-workouts,
+  .goals-dsk {
+    background-color: #B8D8D8;
+    margin: 20px 20px 0 195px;
+  }
+
+  .recent-workouts,
+  .goals-dsk {
+    width: 40%;
+    display: inline-block;
+  }
+
+  .goals-dsk {
+    float: right;
+  }
+
+  .stats-today {
+    display: inline-block;
+  }
+
+  .calorie-title {
+    color: #EEF5DB;
+  }
+
+  .floor-title {
+    color: #7A9E9E;
+  }
+
+  .active-title {
+    color: #fff;
+  }
+
+  .graph {
+    width: 255px;
+  }
+
+  .this-week {
+    display: flex;
+  }
+
+  .weekly-totals {
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
 }

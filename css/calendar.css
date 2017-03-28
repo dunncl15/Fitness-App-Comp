@@ -36,3 +36,9 @@
 .number {
   font-size: 1.65em;
 }
+
+@media only screen and (min-width: 650px)  {
+  .calendar {
+    display: none;
+  }
+}
