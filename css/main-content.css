@@ -79,6 +79,28 @@
     display: none;
   }
 
+  h2 {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #4f6367;
+  }
+
+  h4 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #4f6367;
+  }
+
+  h5 {
+    color: #FF5F55;
+    font-weight: 700;
+  }
+
+  h6 {
+    color: #EEF5DB;
+    font-size: .8em;
+  }
+
   .today,
   .this-week,
   .recent-workouts,
@@ -99,5 +121,41 @@
 
   .stats-today {
     display: inline-block;
+  }
+
+  .calorie-title {
+    color: #EEF5DB;
+  }
+
+  .floor-title {
+    color: #7A9E9E;
+  }
+
+  .active-title {
+    color: #fff;
+  }
+
+  .graph {
+    width: 255px;
+  }
+
+  .this-week {
+    display: flex;
+  }
+
+  .weekly-totals {
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   }
 }
