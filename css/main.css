@@ -59,6 +59,10 @@ h1 {
     font-size: 1.3em;
   }
 
+  .user-icon {
+    width: 55px;
+  }
+
   .sidebar {
     display: block;
     height: 100%;
@@ -87,5 +91,9 @@ h1 {
   li:hover {
     background-color: #839D9E;
     color: #EEF5DB;
+  }
+
+  td {
+    color: #4f6367;
   }
 }
