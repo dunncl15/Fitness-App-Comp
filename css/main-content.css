@@ -141,6 +141,24 @@
 
   .this-week {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .graph-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .graph-wrap h2 {
+    margin: 10px 0;
+  }
+
+  .week-graph {
+    display: block;
+    max-width: 75%;
   }
 
   .weekly-totals {
