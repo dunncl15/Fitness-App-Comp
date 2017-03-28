@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="30px" viewBox="0 0 28 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Portrait" transform="translate(-106.000000, -605.000000)">
+            <rect id="Rectangle-6" fill="#7A9E9F" x="0" y="596" width="320" height="60"></rect>
+            <g id="Icon" transform="translate(109.000000, 608.000000)" stroke="#EEF5DB" stroke-width="4" stroke-linecap="round">
+                <path d="M21.5976146,18.6190476 C21.5976146,14.9899762 16.7930293,12.047619 10.8659073,12.047619 C4.93878537,12.047619 0.1342,14.9899762 0.1342,18.6190476" id="Stroke-13"></path>
+                <path d="M10.8659073,12.0523833 C14.1256634,12.0523833 16.7683463,9.35535952 16.7683463,6.02857381 C16.7683463,2.7017881 14.1256634,0.00476428571 10.8659073,0.00476428571 C7.60615122,0.00476428571 4.96346829,2.7017881 4.96346829,6.02857381 C4.96346829,9.35535952 7.60615122,12.0523833 10.8659073,12.0523833 L10.8659073,12.0523833 Z" id="Stroke-15"></path>
+                <path d="M21.4634146,18.6190476 L21.4634146,22.2141667 C21.4634146,22.5350714 21.3566341,23 21.0454146,23 L0.686292683,23 C0.381512195,23 0,22.5312381 0,22.2141667 L0,18.6190476" id="Stroke-17"></path>
+            </g>
+        </g>
+    </g>
+</svg>
