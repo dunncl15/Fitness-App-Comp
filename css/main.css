@@ -45,13 +45,14 @@ h1 {
   body {
     background-color: #fff;
   }
-  
+
   header {
     justify-content: initial;
   }
 
   .user-section {
     display: block;
+    margin-right: 10px;
     position: absolute;
     right: 0;
     color: #EEF5DB;
@@ -65,6 +66,14 @@ h1 {
     position: absolute;
     background-color:#cadddd;
     list-style: none;
+  }
+
+  .notification {
+    padding: 2px;
+    background-color: #4f6367;
+    border-radius: 10px;
+    color: #EEF5DB;
+    font-size: .5em;
   }
 
   li {
