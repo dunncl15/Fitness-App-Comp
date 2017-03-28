@@ -78,4 +78,26 @@
   .main-content-mobile {
     display: none;
   }
+
+  .today,
+  .this-week,
+  .recent-workouts,
+  .goals-dsk {
+    background-color: #B8D8D8;
+    margin: 20px 20px 0 195px;
+  }
+
+  .recent-workouts,
+  .goals-dsk {
+    width: 40%;
+    display: inline-block;
+  }
+
+  .goals-dsk {
+    float: right;
+  }
+
+  .stats-today {
+    display: inline-block;
+  }
 }
