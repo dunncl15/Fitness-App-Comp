@@ -29,4 +29,6 @@ We started with mobile first working as a team then divied out the work. Made su
 ## Coded out Screenshots 
 
 ![Imgur](http://i.imgur.com/fsxkn6r.png)
+![Imgur](http://i.imgur.com/y9ncaXE.png)
+![Imgur](http://i.imgur.com/fhmYuqR.png)
 
