@@ -292,11 +292,31 @@
     width: 20px;
   }
 
-  @media only screen and (min-width: 550px) {
+  @media only screen and (min-width: 850px) {
+
+  .main-content {
+      width: 75%;
+    }
+
+    .today h2 {
+      text-align: left;
+    }
 
     .today-container {
       flex-direction: row;
       justify-content: space-between;
+    }
+
+    .calorie-title {
+      color: #EEF5DB;
+    }
+
+    .floor-title {
+      opacity: .8;
+    }
+
+    .active-title {
+      color: #fff;
     }
 
     .graph {
@@ -308,12 +328,53 @@
 
     .today-stats-wrap {
       width: 50%;
-      align-items: flex-end;
+      align-items: center;
     }
 
     .stats-today {
       margin: 0 10px;
     }
+
+    .this-week h2 {
+      text-align: left;
+    }
+
+    .this-week-container {
+      flex-direction: row;
+      width: 98%;
+      justify-content: space-between;
+    }
+
+    .week-graph {
+      width: 55%;
+    }
+
+    .weekly-wrap {
+      position: relative;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    .weekly-totals {
+      position: absolute;
+      left: 0;
+      transform: rotate(-90deg);
+    }
+
+    .stat-types {
+      margin: 0 25px 0 0;
+    }
+
+    .workouts-goals {
+      display: flex;
+    }
+
+    .recent-workouts,
+    .goals-dsk {
+      width: 48%;
+    }
+
+
   }
 
 

@@ -109,3 +109,9 @@ h1 {
     color: #EEF5DB;
   }
 }
+
+@media screen and (min-width: 850px) {
+  .sidebar {
+    width: 25%;
+  }
+}
