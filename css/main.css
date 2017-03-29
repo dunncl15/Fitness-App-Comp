@@ -52,7 +52,7 @@ h1 {
     width: 100%;
     padding: 0 10px;
     box-shadow: 1px 1px 3px 1px #769090;
-    z-index: 5;
+    z-index: 2;
   }
 
   header h1 {
@@ -108,4 +108,16 @@ h1 {
     background-color: #839D9E;
     color: #EEF5DB;
   }
+}
+
+@media only screen and (min-width: 850px) {
+
+  .sidebar {
+    width: 25%;
+  }
+
+  .main-content {
+    width: 75%;
+  }
+
 }

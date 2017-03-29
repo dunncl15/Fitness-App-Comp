@@ -293,6 +293,57 @@
   }
 
 
+@media screen and (min-width: 850px) {
+
+  .today h2,
+  .this-week h2 {
+    text-align: left;
+  }
+
+  .today-container,
+  .this-week-container {
+    flex-direction: row;
+    align-items: center;
+    width: 98%;
+    justify-content: space-between;
+  }
+
+  .graph {
+    height: 45%;
+    width: 45%;
+    order: 2;
+    margin: 0;
+  }
+
+  .this-week-container {
+
+  }
+
+  .week-graph {
+    width: 55%;
+  }
+
+  .weekly-wrap {
+    width: 40%;
+  }
+
+  .goals-workouts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .recent-workouts,
+  .goals-dsk {
+    width: 48%;
+  }
+
+  .goals-dsk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
 
 
 
