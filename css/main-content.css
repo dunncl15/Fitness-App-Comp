@@ -2,6 +2,10 @@
   margin: 0 0 100px 0;
 }
 
+.main-content {
+  display: none;
+}
+
 .step-counter {
   display: block;
   width: 60%;
@@ -74,9 +78,16 @@
   background-color: #fe5f55;
 }
 
-@media only screen and (min-width: 650px)  {
+@media only screen and (min-width: 550px)  {
+
   .main-content-mobile {
     display: none;
+  }
+
+  .main-content {
+    display: block;
+    width: 100%;
+    overflow: auto;
   }
 
   h2 {
@@ -105,57 +116,201 @@
   .this-week,
   .recent-workouts,
   .goals-dsk {
+    margin: 15px;
+    padding: 10px;
     background-color: #B8D8D8;
-    margin: 20px 20px 0 195px;
+  }
+
+  /**** Today Section ****/
+
+  .today h2 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .today-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .today-stats-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    margin: 10px 0;
+  }
+
+  .stats-today {
+    margin: 0 15px;
+    text-align: center;
+  }
+
+  .stats-today > * {
+    margin: 3px 0;
+  }
+
+  .graph {
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+    width: 70%;
   }
 
   .recent-workouts,
   .goals-dsk {
-    width: 40%;
-    display: inline-block;
+    display: none;
   }
 
-  .goals-dsk {
-    float: right;
+  /* This Week Section */
+
+  .this-week-container {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: 0 auto;
   }
 
-  .stats-today {
-    display: inline-block;
+  .this-week h2 {
+    text-align: center;
+    padding: 10px;
   }
 
-  .calorie-title {
-    color: #EEF5DB;
+  .week-graph {
+    display: block;
+    height: 70%;
+    width: 80%;
+    margin: 20px auto;
   }
 
-  .floor-title {
-    color: #7A9E9E;
+  .weekly-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
   }
 
-  .active-title {
+  .weekly-wrap > p {
+    color: #fff;
+    text-align: center;
+  }
+
+  .weekly-stats-wrap {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .stat-types {
     color: #fff;
   }
 
-  .graph {
-    width: 255px;
+  .stat-values {
+    color: #FF5F55;
   }
 
-  .this-week {
+  .stat-type,
+  .stat-value {
+    margin: 10px 0;
+  }
+
+  /* Recent Works Section */
+
+  .recent-workouts {
+    display: block;
+    color: #4f6367;
+  }
+
+  .workout-overview {
     display: flex;
+    margin: 10px 0;
+    border-bottom: 1px solid;
   }
 
-  .weekly-totals {
-    -webkit-transform: rotate(-90deg);
+  .date {
+    display: block;
+    margin: 0 auto 3px 0;
+    font-weight: 300;
+  }
+
+  .activity {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .recent-stat {
+    margin: 3px;
+    font-weight: 600;
+    opacity: .85;
+  }
+
+  /* Goals Works Section */
+
+
+  .goals-dsk {
+    display: block;
+    position: relative;
+  }
+
+  .goals-dsk h2 {
+    margin: 0 0 10px 0;
+  }
+
+  .add-goal {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #4f6367;
+    font-size: .8em;
+  }
+
+  .add {
+    margin: 0 0 0 5px;
+    height: 15px;
+    width: 15px;
+  }
+
+  .goal {
+    display: flex;
+    align-items: center;
+    color: #4f6367;
+    margin: 5px 0;
+    opacity: .9;
+  }
+
+  .trophy {
+    display: block;
+    margin: 0 10px 0 0;
+    height: 20px;
+    width: 20px;
+  }
+
+
+
+
+
+
+
+
+  /*.weekly-totals {
+    margin-right: -60px;
+    -webkit-transform: rotate(-90deg);*/
 
     /* Firefox */
-    -moz-transform: rotate(-90deg);
+    /*-moz-transform: rotate(-90deg);*/
 
     /* IE */
-    -ms-transform: rotate(-90deg);
+    /*-ms-transform: rotate(-90deg);*/
 
     /* Opera */
-    -o-transform: rotate(-90deg);
+    /*-o-transform: rotate(-90deg);*/
 
     /* Internet Explorer */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-  }
-}
+    /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
+  /*}
+}*/
