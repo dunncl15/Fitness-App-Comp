@@ -292,6 +292,31 @@
     width: 20px;
   }
 
+  @media only screen and (min-width: 550px) {
+
+    .today-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .graph {
+      margin: 0;
+      height: 45%;
+      width: 45%;
+      order: 2;
+    }
+
+    .today-stats-wrap {
+      width: 50%;
+      align-items: flex-end;
+    }
+
+    .stats-today {
+      margin: 0 10px;
+    }
+  }
+
+
 
 
 
