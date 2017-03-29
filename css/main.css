@@ -48,8 +48,11 @@ h1 {
   }
 
   header {
+    position: fixed;
     width: 100%;
     padding: 0 10px;
+    box-shadow: 1px 1px 3px 1px #769090;
+    z-index: 5;
   }
 
   header h1 {
@@ -75,11 +78,14 @@ h1 {
 
   .wrapper {
     display: flex;
+    padding: 58px 0 0 0;
   }
 
   .sidebar {
-    display: block;
+    position: fixed;
     width: 30%;
+    height: 100%;
+    display: block;
     background-color:#cadddd;
     list-style: none;
   }

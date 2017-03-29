@@ -85,8 +85,10 @@
   }
 
   .main-content {
+    position: absolute;
+    right: 0;
     display: block;
-    width: 100%;
+    width: 70%;
     overflow: auto;
   }
 
