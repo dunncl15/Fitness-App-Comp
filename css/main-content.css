@@ -292,10 +292,11 @@
     width: 20px;
   }
 
-  @media only screen and (min-width: 850px) {
+  @media only screen and (min-width: 1000px) {
 
   .main-content {
       width: 75%;
+      background-color: #fff;
     }
 
     .today h2 {
@@ -342,7 +343,7 @@
     .this-week-container {
       flex-direction: row;
       width: 98%;
-      justify-content: space-between;
+      justify-content: center;
     }
 
     .week-graph {
@@ -352,17 +353,37 @@
     .weekly-wrap {
       position: relative;
       flex-direction: row;
-      justify-content: flex-end;
+      justify-content: center;
     }
 
     .weekly-totals {
-      position: absolute;
+      position: relative;
       left: 0;
+      top: 100px;
+      height: 45px;
       transform: rotate(-90deg);
     }
 
+    .weekly-stats-wrap {
+      margin-left: -35px;
+    }
+
     .stat-types {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;;
       margin: 0 25px 0 0;
+      border-left: 3px solid #fff;
+    }
+
+    .stat-type {
+      padding: 0 0 0 10px;
+    }
+
+    .stat-values {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
 
     .workouts-goals {
@@ -372,6 +393,13 @@
     .recent-workouts,
     .goals-dsk {
       width: 48%;
+      margin-top: 0;
+    }
+
+    .goals-dsk {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
 
 
