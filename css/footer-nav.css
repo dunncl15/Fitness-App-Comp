@@ -71,7 +71,7 @@ footer {
   letter-spacing: .25pt;
 }
 
-@media only screen and (min-width: 650px)  {
+@media only screen and (min-width: 550px)  {
   footer {
     display: none;
   }

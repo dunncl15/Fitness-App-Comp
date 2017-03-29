@@ -2,6 +2,10 @@
   margin: 0 0 100px 0;
 }
 
+.main-content {
+  display: none;
+}
+
 .step-counter {
   display: block;
   width: 60%;
@@ -50,15 +54,6 @@
   font-weight: 700;
 }
 
-.today,
-.this-week,
-.recent-workouts,
-.goals-dsk
- {
-  display: none;
-}
-
-
 /****** Mobile Btn ******
 *************************/
 
@@ -83,17 +78,24 @@
   background-color: #fe5f55;
 }
 
-@media only screen and (min-width: 650px)  {
+@media only screen and (min-width: 550px)  {
+
   .main-content-mobile {
     display: none;
   }
 
+  .main-content {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 70%;
+    overflow: auto;
+  }
+
   h2 {
-    margin: 10px 0 0 10px;
-    color: #4f6367;
     font-size: 1.3em;
     font-weight: 700;
-
+    color: #4f6367;
   }
 
   h4 {
@@ -116,100 +118,289 @@
   .this-week,
   .recent-workouts,
   .goals-dsk {
-    display: block;
-    margin: 20px 20px 0 195px;
+    margin: 15px;
+    padding: 10px;
     background-color: #B8D8D8;
   }
 
-  .goals-dsk {
-    float: right;
+  /**** Today Section ****/
+
+  .today h2 {
+    text-align: center;
+    padding: 10px;
   }
 
-  .stat-goals {
-    align-items: center;
+  .today-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .today-stats-wrap {
     display: flex;
     justify-content: center;
+    align-items: center;
+    order: 2;
+    margin: 10px 0;
   }
 
   .stats-today {
-    align-items: center;
-    margin-right: 40px;
-    display: flex;
-    flex-direction: column;
+    margin: 0 15px;
+    text-align: center;
   }
 
-  .calorie-title {
-    color: #EEF5DB;
-  }
-
-  .floor-title {
-    color: #7A9E9E;
-  }
-
-  .active-title {
-    color: #fff;
+  .stats-today > * {
+    margin: 3px 0;
   }
 
   .graph {
-    width: 270px;
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+    width: 70%;
   }
 
-  .this-week {
+  .recent-workouts,
+  .goals-dsk {
+    display: none;
+  }
+
+  /* This Week Section */
+
+  .this-week-container {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .this-week h2 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .week-graph {
+    display: block;
+    height: 70%;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .weekly-wrap {
     display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
   }
 
-  .weekly-totals {
-    -webkit-transform: rotate(-90deg);
-
-    /* Firefox */
-    -moz-transform: rotate(-90deg);
-
-    /* IE */
-    -ms-transform: rotate(-90deg);
-
-    /* Opera */
-    -o-transform: rotate(-90deg);
-
-    /* Internet Explorer */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  .weekly-wrap > p {
+    color: #fff;
+    text-align: center;
   }
 
-  .footer {
+  .weekly-stats-wrap {
+    margin: 10px 0;
     display: flex;
+    justify-content: space-around;
   }
+
+  .stat-types {
+    color: #fff;
+  }
+
+  .stat-values {
+    color: #FF5F55;
+  }
+
+  .stat-type,
+  .stat-value {
+    margin: 10px 0;
+  }
+
+  /* Recent Works Section */
 
   .recent-workouts {
-    padding: 5px;
+    display: block;
+    color: #4f6367;
+  }
+
+  .workout-overview {
+    display: flex;
+    margin: 10px 0;
+    border-bottom: 1px solid;
+  }
+
+  .date {
+    display: block;
+    margin: 0 auto 3px 0;
+    font-weight: 300;
+  }
+
+  .activity {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
   }
 
   .recent-stat {
-    margin-top: 3px;
-    color: #4f6367;
-    font-size: .7em;
-    font-weight: 700;
+    margin: 3px;
+    font-weight: 600;
+    opacity: .85;
   }
 
-  .recent-header {
-    border-bottom: 1px solid #4f6367;
+  /* Goals Works Section */
+
+
+  .goals-dsk {
+    display: block;
+    position: relative;
   }
 
-  .date,
-  .type {
-    margin-top: 10px;
-    color: #4f6367;
+  .goals-dsk h2 {
+    margin: 0 0 10px 0;
   }
 
-  .type {
-    font-weight: 700;
-  }
-
-  .goal-list {
-    margin-bottom: 10px;
+  .add-goal {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
     color: #4f6367;
     font-size: .8em;
   }
 
-  .trophy-img {
+  .add {
+    margin: 0 0 0 5px;
+    height: 15px;
+    width: 15px;
+  }
+
+  .goal {
+    display: flex;
+    align-items: center;
+    color: #4f6367;
+    margin: 5px 0;
+    opacity: .9;
+  }
+
+  .trophy {
+    display: block;
+    margin: 0 10px 0 0;
+    height: 20px;
     width: 20px;
   }
-}
+
+  @media only screen and (min-width: 1000px) {
+
+  .main-content {
+      width: 75%;
+      background-color: #fff;
+    }
+
+    .today h2 {
+      text-align: left;
+    }
+
+    .today-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .calorie-title {
+      color: #EEF5DB;
+    }
+
+    .floor-title {
+      opacity: .8;
+    }
+
+    .active-title {
+      color: #fff;
+    }
+
+    .graph {
+      margin: 0;
+      height: 45%;
+      width: 45%;
+      order: 2;
+    }
+
+    .today-stats-wrap {
+      width: 50%;
+      align-items: center;
+    }
+
+    .stats-today {
+      margin: 0 10px;
+    }
+
+    .this-week h2 {
+      text-align: left;
+    }
+
+    .this-week-container {
+      flex-direction: row;
+      width: 98%;
+      justify-content: center;
+    }
+
+    .week-graph {
+      width: 55%;
+    }
+
+    .weekly-wrap {
+      position: relative;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .weekly-totals {
+      position: relative;
+      left: 0;
+      top: 100px;
+      height: 45px;
+      transform: rotate(-90deg);
+    }
+
+    .weekly-stats-wrap {
+      margin-left: -35px;
+    }
+
+    .stat-types {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;;
+      margin: 0 25px 0 0;
+      border-left: 3px solid #fff;
+    }
+
+    .stat-type {
+      padding: 0 0 0 10px;
+    }
+
+    .stat-values {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .workouts-goals {
+      display: flex;
+    }
+
+    .recent-workouts,
+    .goals-dsk {
+      width: 48%;
+      margin-top: 0;
+    }
+
+    .goals-dsk {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+
+  }

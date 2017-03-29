@@ -41,59 +41,82 @@ h1 {
   display: none;
 }
 
-@media only screen and (min-width: 650px)  {
+@media only screen and (min-width: 550px)  {
+
   body {
     background-color: #fff;
   }
 
   header {
-    justify-content: initial;
+    position: fixed;
+    width: 100%;
+    padding: 0 10px;
+    box-shadow: 1px 1px 3px 1px #769090;
+    z-index: 5;
+  }
+
+  header h1 {
+    margin-right: auto;
+  }
+
+  .icon-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    margin: 5px 0 5px 5px;
+    border: 3px solid #EEF5DB;
+    border-radius: 50%;
   }
 
   .user-section {
-    display: block;
-    margin-right: 10px;
-    position: absolute;
-    right: 0;
+    display: flex;
+    align-items: center;
     color: #EEF5DB;
     font-size: 1.3em;
   }
 
-  .user-icon {
-    width: 55px;
+  .wrapper {
+    display: flex;
+    padding: 58px 0 0 0;
   }
 
   .sidebar {
-    display: block;
+    position: fixed;
+    width: 30%;
     height: 100%;
-    left: 0;
-    position: absolute;
+    display: block;
     background-color:#cadddd;
     list-style: none;
   }
 
-  .notification {
-    padding: 2px;
-    background-color: #4f6367;
-    border-radius: 10px;
-    color: #EEF5DB;
-    font-size: .5em;
+  .sidebar:first-child:hover {
+    border-top: 1px solid #4f6367;
+
   }
 
   li {
     padding: 25px;
     text-align: center;
-    border: 1px solid #4f6367;
+    border-bottom: 1px solid #4f6367;
     color: #4f6367;
     font-weight: 700;
+    cursor: pointer;
   }
 
   li:hover {
     background-color: #839D9E;
     color: #EEF5DB;
   }
+}
 
-  td {
-    color: #4f6367;
+@media screen and (min-width: 1000px) {
+  .sidebar {
+    width: 25%;
   }
+
+  body {
+    background-color: #333;
+  }
+
 }
