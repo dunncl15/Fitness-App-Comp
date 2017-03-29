@@ -109,12 +109,6 @@ h1 {
     color: #EEF5DB;
   }
 
-  .notifications {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .number {
     display: flex;
     justify-content: center;
@@ -125,6 +119,12 @@ h1 {
     border-radius: 50%;
     color: #EEF5DB;
     font-size: .8em;
+  }
+
+  .notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 }
