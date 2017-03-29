@@ -25,3 +25,8 @@ We started with mobile first working as a team then divied out the work. Made su
 
 ![Mobile App](http://i.imgur.com/EjDqbnR.png)
 ![Desktop App](http://i.imgur.com/EytCPm3.png)
+
+## Coded out Screenshots 
+
+![Imgur](http://i.imgur.com/UTbfeY9.png)
+
