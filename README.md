@@ -20,5 +20,8 @@ Our target user for FitTracker is the average joe. It doesn't matter if you are 
 
 ## Final comps for mobile and desktop layouts built in Sketch. Button/hover/active states must be included (if and when applicable). Should be ready to hand-off to a dev team to build.
 
+## Approach to Building the Comp
+We started with mobile first working as a team then divied out the work. Made sure along the way to try and learn some new CSS tricks and concepts. 
+
 ![Mobile App](http://i.imgur.com/EjDqbnR.png)
 ![Desktop App](http://i.imgur.com/EytCPm3.png)
